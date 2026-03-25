@@ -1,0 +1,267 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0ea5e9;
+  --color-primary-dark: #0284c7;
+  --color-teal: #14b8a6;
+  --color-teal-dark: #0d9488;
+  --color-dark: #0f172a;
+  --color-dark-800: #1e293b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Outfit', system-ui, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #0ea5e9, #14b8a6);
+  border-radius: 3px;
+}
+
+/* Glass morphism */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-dark {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #0ea5e9, #14b8a6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gradient button */
+.btn-primary {
+  background: linear-gradient(135deg, #0ea5e9, #14b8a6);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #14b8a6, #0ea5e9);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn-primary:hover::before {
+  opacity: 1;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(14, 165, 233, 0.5);
+}
+
+.btn-primary span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Glow effect */
+.glow-blue {
+  box-shadow: 0 0 20px rgba(14, 165, 233, 0.4);
+}
+
+.glow-teal {
+  box-shadow: 0 0 20px rgba(20, 184, 166, 0.4);
+}
+
+/* Hero slider */
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  transition: opacity 1.2s ease-in-out;
+}
+
+.hero-slide.active {
+  opacity: 1;
+}
+
+.hero-slide.inactive {
+  opacity: 0;
+}
+
+/* Zoom animation on hero images */
+@keyframes slowZoom {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+}
+
+.hero-img-zoom {
+  animation: slowZoom 8s ease-in-out forwards;
+}
+
+/* Service card hover */
+.service-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(14, 165, 233, 0.2);
+}
+
+/* WhatsApp pulse */
+@keyframes pulse-green {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+  70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+.whatsapp-pulse {
+  animation: pulse-green 2s infinite;
+}
+
+/* Before After Slider */
+.before-after-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+/* Review card */
+.review-card {
+  transition: all 0.4s ease;
+}
+
+/* Star rating */
+.star-fill {
+  color: #f59e0b;
+}
+
+/* Animated underline */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #0ea5e9, #14b8a6);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Section heading */
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Floating animation for icons */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.float-anim {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Slide in animations */
+@keyframes slideInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-up {
+  animation: slideInUp 0.6s ease forwards;
+}
+
+/* Image lazy loading blur */
+img {
+  transition: filter 0.3s ease;
+}
+
+img[loading] {
+  filter: blur(5px);
+}
+
+/* Map container */
+.map-container {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+/* Review slider dots */
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: linear-gradient(135deg, #0ea5e9, #14b8a6);
+  width: 24px;
+  border-radius: 5px;
+}
+
+/* Before after slider line */
+.slider-line {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: white;
+  cursor: ew-resize;
+}
+
+/* Contact form input */
+.form-input {
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px 16px;
+  width: 100%;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  outline: none;
+  background: white;
+}
+
+.form-input:focus {
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.1);
+}
