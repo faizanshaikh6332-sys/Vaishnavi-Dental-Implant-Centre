@@ -4,11 +4,7 @@ import { ChevronLeft, ChevronRight, Calendar, Phone } from 'lucide-react'
 
 const slides = [
   {
-<<<<<<< HEAD
-    img: '/hero1.jpg',
-=======
     img: '/hero1.png',
->>>>>>> c4171fd9dd1a1f97e4b9176e53d3ab8bd535f419
     title: 'Advanced Dental Care',
     highlight: '& Implant Solutions',
     sub: 'Experience painless treatments with modern technology, skilled dentists and hygienic environment.',
