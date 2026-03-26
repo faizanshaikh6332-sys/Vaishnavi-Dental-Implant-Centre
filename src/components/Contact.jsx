@@ -63,8 +63,8 @@ export default function Contact() {
                 color: 'text-indigo-500',
                 bg: 'bg-indigo-50',
                 title: 'Call Us',
-                lines: ['+91 8390127951'],
-                link: 'tel:+918390127951',
+                lines: ['+91 9960969658'],
+                link: 'tel:+919960969658',
               },
               {
                 icon: Mail,
@@ -101,7 +101,7 @@ export default function Contact() {
             {/* Action Buttons */}
             <div className="flex gap-4 pt-2">
               <a
-                href="tel:+918390127951"
+                href="tel:+919960969658"
                 className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-2xl border-2 border-sky-200 text-sky-600 font-bold text-sm hover:bg-sky-50 transition-all duration-300 hover:scale-105 bg-white"
               >
                 <Phone size={18} /> Call Now
