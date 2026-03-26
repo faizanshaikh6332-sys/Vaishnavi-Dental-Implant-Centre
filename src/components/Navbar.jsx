@@ -72,7 +72,7 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:+918390127951"
+              href="tel:+919960969658"
               className="flex items-center gap-2 text-sm font-semibold text-sky-500 hover:text-teal-500 transition-colors duration-300"
             >
               <Phone size={16} />

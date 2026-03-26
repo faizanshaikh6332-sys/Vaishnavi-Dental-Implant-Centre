@@ -122,7 +122,7 @@ export default function Hero() {
                   <span>Book Appointment</span>
                 </a>
                 <a
-                  href="tel:+918390127951"
+                  href="tel:+919960969658"
                   className="group flex items-center gap-3 px-8 py-4 rounded-full text-base font-bold border-2 border-white/30 text-white glass hover:border-sky-400 hover:bg-sky-500/10 transition-all duration-300 hover:scale-105"
                   style={{ backdropFilter: 'blur(16px)' }}
                 >

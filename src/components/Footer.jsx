@@ -103,9 +103,9 @@ export default function Footer() {
                   <p className="text-sm text-rose-400/80">Sunday: Closed</p>
                 </div>
               </div>
-              <a href="tel:+918390127951" className="flex items-center gap-3 group">
+              <a href="tel:+919960969658" className="flex items-center gap-3 group">
                 <Phone className="w-4 h-4 text-sky-400 flex-shrink-0" />
-                <span className="text-sm text-white/60 group-hover:text-sky-400 transition-colors">+91 8390127951</span>
+                <span className="text-sm text-white/60 group-hover:text-sky-400 transition-colors">+91 9960969658</span>
               </a>
               <a href="mailto:info@vaishnavidental.com" className="flex items-center gap-3 group">
                 <Mail className="w-4 h-4 text-teal-400 flex-shrink-0" />

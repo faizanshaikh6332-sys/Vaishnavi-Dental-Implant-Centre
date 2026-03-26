@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 export default function WhatsAppButton() {
   return (
     <motion.a
-      href="https://wa.me/918390127951?text=Hello%2C%20I'd%20like%20to%20book%20an%20appointment%20at%20Vaishnavi%20Dental%20Clinic"
+      href="https://wa.me/919960969658?text=Hello%2C%20I'd%20like%20to%20book%20an%20appointment%20at%20Vaishnavi%20Dental%20Clinic"
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0, opacity: 0 }}
