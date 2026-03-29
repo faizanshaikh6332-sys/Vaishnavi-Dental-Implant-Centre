@@ -33,7 +33,7 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <div className="text-white font-bold font-['Outfit']">Vaishnavi Dental</div>
+                <div className="text-white font-bold font-['Outfit']">Demo Dental Clinic</div>
                 <div className="text-sky-400 text-xs">& Implant Centre</div>
               </div>
             </div>
@@ -107,9 +107,9 @@ export default function Footer() {
                 <Phone className="w-4 h-4 text-sky-400 flex-shrink-0" />
                 <span className="text-sm text-white/60 group-hover:text-sky-400 transition-colors">+91 9960969658</span>
               </a>
-              <a href="mailto:info@vaishnavidental.com" className="flex items-center gap-3 group">
+              <a href="mailto:info@demodentalclinic.com" className="flex items-center gap-3 group">
                 <Mail className="w-4 h-4 text-teal-400 flex-shrink-0" />
-                <span className="text-sm text-white/60 group-hover:text-teal-400 transition-colors break-all">info@vaishnavidental.com</span>
+                <span className="text-sm text-white/60 group-hover:text-teal-400 transition-colors break-all">info@demodentalclinic.com</span>
               </a>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-white/40 text-sm text-center">
-            © 2025 Vaishnavi Dental Clinic & Implant Centre. All rights reserved.
+            © 2025 Demo Dental Clinic & Implant Centre. All rights reserved.
           </p>
           <p className="text-white/30 text-xs">
             Chhatrapati Sambhajinagar, Maharashtra

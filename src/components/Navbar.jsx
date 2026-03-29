@@ -44,7 +44,7 @@ export default function Navbar() {
               <div className={`font-bold text-base leading-tight font-['Outfit'] transition-colors duration-300 ${
                 scrolled ? 'text-slate-800' : 'text-white'
               }`}>
-                Vaishnavi Dental
+                Demo Dental Clinic
               </div>
               <div className={`text-xs font-medium transition-colors duration-300 ${
                 scrolled ? 'text-sky-500' : 'text-sky-200'

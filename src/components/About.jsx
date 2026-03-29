@@ -26,7 +26,7 @@ export default function About() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-sky-500/20 group">
               <img
                 src="/about.png"
-                alt="Vaishnavi Dental Clinic"
+                alt="Demo Dental Clinic"
                 loading="lazy"
                 className="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -72,11 +72,11 @@ export default function About() {
 
             <h2 className="section-heading text-slate-900 mb-6 font-['Outfit']">
               Why Choose{' '}
-              <span className="gradient-text">Vaishnavi Dental</span>?
+              <span className="gradient-text">Demo Dental Clinic</span>?
             </h2>
 
             <p className="text-slate-600 text-lg leading-relaxed mb-10">
-              Vaishnavi Dental Clinic and Implant Centre provides advanced dental treatments
+              Demo Dental Clinic and Implant Centre provides advanced dental treatments
               using modern equipment and patient-friendly approach. Our goal is to deliver
               healthy and confident smiles with <strong className="text-slate-800">precision and care</strong>.
             </p>

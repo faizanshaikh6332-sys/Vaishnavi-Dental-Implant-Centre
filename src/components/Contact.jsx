@@ -71,8 +71,8 @@ export default function Contact() {
                 color: 'text-rose-500',
                 bg: 'bg-rose-50',
                 title: 'Email Us',
-                lines: ['info@vaishnavidental.com'],
-                link: 'mailto:info@vaishnavidental.com',
+                lines: ['info@demodentalclinic.com'],
+                link: 'mailto:info@demodentalclinic.com',
               },
             ].map((info) => {
               const Icon = info.icon
@@ -119,7 +119,7 @@ export default function Contact() {
             {/* Map */}
             <div className="map-container h-52 mt-2 border border-slate-200">
               <iframe
-                title="Vaishnavi Dental Clinic Location"
+                title="Demo Dental Clinic Location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.563984043534!2d75.3433!3d19.8762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb98200000001%3A0xb2e3a67eabb83a48!2sCIDCO%2C%20Chhatrapati%20Sambhajinagar%2C%20Maharashtra%20431006!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"

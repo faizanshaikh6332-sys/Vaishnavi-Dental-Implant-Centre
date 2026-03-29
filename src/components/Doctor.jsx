@@ -76,14 +76,14 @@ export default function Doctor() {
               Chief Dental Surgeon
             </div>
             <h3 className="text-4xl font-black text-slate-900 mb-2 font-['Outfit']">
-              Dr. Vaishnavi Patil
+              Dr. Jane Doe
             </h3>
             <p className="text-sky-500 font-semibold text-lg mb-6">
               BDS, MDS — Implantology & Cosmetic Dentistry
             </p>
 
             <p className="text-slate-600 leading-relaxed mb-8 text-base">
-              With over <strong className="text-slate-800">10+ years of experience</strong>, Dr. Vaishnavi Patil is
+              With over <strong className="text-slate-800">10+ years of experience</strong>, Dr. Jane Doe is
               a leading specialist in dental implants and cosmetic dentistry. Trained in the latest
               techniques, she combines artistry with precision to create beautiful, natural-looking smiles.
               Her patient-first philosophy ensures every treatment is comfortable and anxiety-free.

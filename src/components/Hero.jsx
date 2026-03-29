@@ -75,7 +75,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 h-full flex items-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-32 sm:pt-0">
           <AnimatePresence mode="wait">
             <motion.div
               key={`content-${current}`}
